@@ -1,9 +1,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-# YtbDownBot
+# Youtube Downloader Bot
 Telegram bot that utilize youtube-dl functionality for downloading video directly to telegram.
-Simple clone of https://t.me/VideoTubeBot.
+Simple clone of t.me/ytdownloaddbot .
 
 # Dependencies
 Install `ffmpeg` and `python3`.
@@ -35,3 +35,5 @@ for bypass limit in 50MB) and bot:
   (can be easily replaced with CouchDB: read https://python-cloudant.readthedocs.io/en/latest/getting_started.html)
 
 Note: for deploying you must set also webhook url via calling `https://api.telegram.org/bot<bot-token>/setWebhook?url=<webhook-url>` (`webhook-url` path is `bot_domanin+/bot` like `mybot.com/bot`) Use master branch if you want to use polling instead.
+
+
