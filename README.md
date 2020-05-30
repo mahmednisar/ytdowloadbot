@@ -3,7 +3,7 @@
 
 # Youtube Downloader Bot
 Telegram bot that utilize youtube-dl functionality for downloading video directly to telegram.
-Simple clone of t.me/ytdownloaddbot .
+Simple clone of https://t.me/ytdownloaddbot .
 
 # Dependencies
 Install `ffmpeg` and `python3`.
